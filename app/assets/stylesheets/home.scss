@@ -1,0 +1,34 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.container {
+	padding: 50px;
+	display: flex;
+
+	#labels {
+		padding: 5px;
+		position: relative;
+		text-align: right;
+		margin-right: 15px;
+
+		.label {
+			margin: 0;
+			font-size: 14px;
+			height: 30px;
+
+			.bold {
+				font-size: 1.2em;
+				font-weight: 900;
+			}
+		}
+	}
+
+	#calendar {
+		padding: 10px;
+		height: 740px;
+		background-color: lightgray;
+		border-left: 1px solid black;
+		box-sizing: border-box;
+	}
+}
