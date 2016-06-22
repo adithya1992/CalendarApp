@@ -1,6 +1,6 @@
 # CalendarApp
 
-PART 1
+##PART 1
 
 A REST API in Ruby on Rails that accepts a set of events for a single day and returns how these events can most efficiently be laid out on a calendar. 
 
@@ -17,6 +17,6 @@ The REST API will respond with an array of event objects that have a left, top a
 ­An event will use the maximum width possible while still adhering to the first constraint. If there is only one event at a given time slot, its width will be 100%.
 
 
-PART 2
+##PART 2
 
 Creating a web page by making use of the REST API from Part I, laying out the provided events as specified by the REST API response. 
